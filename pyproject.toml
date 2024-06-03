@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scwkms"
+version = "0.1.0"
+description = "Extension to Tink Python that provides Scaleway's Key Manager integration"
+authors = ["Scaleway <opensource@scaleway.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tink = "^1.10.0"
+scaleway = "^2.3.1"
+setuptools = "^70.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
