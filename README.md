@@ -25,22 +25,23 @@ from scwkms import client
 ...
 ```
 
+Check [Scaleway's configuration
+documentation](https://github.com/scaleway/scaleway-cli/blob/master/docs/commands/config.md)
+to configure the provider.
+
 ## Examples
 
-Examples are present in [./examples](./examples). To run them, you need to
-create a Key in Scaleway's Key Manager and retrieve its ID. Then create the
-following environments variables:
-```sh
-export SCW_ACCESS_KEY="<access-key>"
-export SCW_SECRET_KEY="<secret-key>"
-export SCW_DEFAULT_ORGANIZATION_ID="<organization-id>"
-export SCW_DEFAULT_PROJECT_ID="<project-id>"
-export SCW_DEFAULT_REGION="<region>"
-export SCW_API_URL="<api-url>"
+Examples are present in [./examples](./examples).
+
+To run them, you need to create a Key in Scaleway's Key Manager and retrieve its
+ID. Export that ID as an environment variable:
+```
 export SCW_KMS_KEY_ID="<key-id>"
 ```
 
-To run [encrypt_decrypt.py](./examples/encrypt_decrypt.py):
+Make sure you have a [configuration file or environment
+variables](https://github.com/scaleway/scaleway-cli/blob/master/docs/commands/config.md)
+set. You can now run the examples:
 ```sh
 python3 ./examples/encrypt_decrypt.py
 ```
