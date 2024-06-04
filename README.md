@@ -26,7 +26,7 @@ from scwkms import client
 ```
 
 Check [Scaleway's configuration
-documentation](https://github.com/scaleway/scaleway-cli/blob/master/docs/commands/config.md)
+documentation](https://www.scaleway.com/en/docs/developer-tools/scaleway-cli/reference-content/scaleway-configuration-file/)
 to configure the provider.
 
 ## Examples
@@ -40,7 +40,7 @@ export SCW_KMS_KEY_ID="<key-id>"
 ```
 
 Make sure you have a [configuration file or environment
-variables](https://github.com/scaleway/scaleway-cli/blob/master/docs/commands/config.md)
+variables](https://www.scaleway.com/en/docs/developer-tools/scaleway-cli/reference-content/scaleway-configuration-file/)
 set. You can now run the examples:
 ```sh
 python3 ./examples/encrypt_decrypt.py
