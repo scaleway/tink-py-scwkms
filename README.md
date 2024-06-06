@@ -21,7 +21,7 @@ poetry install
 
 You can now import the package in your Python scripts:
 ```python
-from scwkms import client
+from scaleway_tink.integration.scwkms import client
 ...
 ```
 
