@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "scaleway_tink"
-version = "0.2.0"
+name = "scaleway-tink"
+version = "0.2.1"
 description = "Extension to Tink Python that provides Scaleway's Key Manager integration"
 authors = ["Scaleway <opensource@scaleway.com>"]
 readme = "README.md"
