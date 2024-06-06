@@ -1,4 +1,6 @@
-from scwkms import client
+#!/usr/bin/env python3
+
+from scaleway_tink.integration.scwkms import client
 import base64
 import os
 
