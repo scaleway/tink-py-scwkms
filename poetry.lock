@@ -249,27 +249,27 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "scaleway"
-version = "2.3.1"
+version = "2.7.0"
 description = "Scaleway SDK for Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "scaleway-2.3.1-py3-none-any.whl", hash = "sha256:1c3c01c36624ecd7b1796aa4e65747bd8b053d0f152498bbad5038f95f7c49e7"},
-    {file = "scaleway-2.3.1.tar.gz", hash = "sha256:017bfc131e91dc6f7d09160a11c45dd9ce00f58327a0b46b6c795cf9ffb9e248"},
+    {file = "scaleway-2.7.0-py3-none-any.whl", hash = "sha256:006a70416f37f9cd8774859a7508cf14af64bc2cb3209a8cff96ddcf48d14627"},
+    {file = "scaleway-2.7.0.tar.gz", hash = "sha256:745fbd4114caa47d3c6bc5445b8bec5377a93c776ef9984b8741df6749cf519b"},
 ]
 
 [package.dependencies]
-scaleway-core = "2.3.1"
+scaleway-core = "2.7.0"
 
 [[package]]
 name = "scaleway-core"
-version = "2.3.1"
+version = "2.7.0"
 description = "Scaleway SDK for Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "scaleway_core-2.3.1-py3-none-any.whl", hash = "sha256:f43398dc6d8c7190ad9c51c8d1690035f029f5960fd843e780f9c82bd6887037"},
-    {file = "scaleway_core-2.3.1.tar.gz", hash = "sha256:1d469527a3dc16c3f07f212d4a17f18aa5edf84668ce4ca3ca5b4aa430a294cc"},
+    {file = "scaleway_core-2.7.0-py3-none-any.whl", hash = "sha256:897b2570fb4a1ab6e4533121ba61cf2d0557d14bd07f9fda68d803b759ae0f11"},
+    {file = "scaleway_core-2.7.0.tar.gz", hash = "sha256:1ff173236ffa77239c75942a184d2774c7575d2dbc1303dbb8459a03cf907879"},
 ]
 
 [package.dependencies]
